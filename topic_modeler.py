@@ -34,6 +34,134 @@ lemmatizer = WordNetLemmatizer()
 # set random seed for reproducable results
 np.random.seed(45)
 
+eng_stopwords = set(stopwords.words('english'))
+ar_stopwords_df = pd.read_csv('arabic_stopwords.txt', header=None)
+ar_stopwords = ar_stopwords_df[0].values.tolist()
+base_stopwords = eng_stopwords.union(ar_stopwords)
+
+sample_corpus = pd.read_csv("irony-labeled.csv")['comment_text']
+
+
+class StopwordsList():
+    def __init__(self, stopwords):
+        self.stopwords = base_stopwords
+        self.extra_stopwords = set()
+
+    def add_stopwords(self, extra_stopwords):
+        self.extra_stopwords = set(extra_stopwords.split(","))
+        self.stopwords = self.stopwords.union(self.extra_stopwords)
+        return self.stopwords
+
+class Preprocessor():
+    def __init__(self, textfield, all_stopwords):
+        self.textfield = textfield
+        self.all_stopwords = all_stopwords
+
+    def print_textfield(self):
+        print(self.textfield)
+
+    def preprocess(self):
+        self.textfield = re.sub("[^a-zA-Z\u0621-\u064A]+", " ", self.textfield).lower()
+        self.textfield = self.textfield.split(" ")
+        self.textfield = [x for x in self.textfield if x != "" and len(x) > 1]
+        self.textfield = [x for x in self.textfield if x not in self.all_stopwords]
+        return self.textfield
+
+
+class FullTextPreparation():
+    def __init__(self, stopwords, corpus):
+        self.stopwords = stopwords
+        self.corpus = corpus
+
+    def algorithms_prework(self):
+        print("Enter New Stopwords: ")
+        new_stopwords = input()
+        stoplist = StopwordsList(self.stopwords)
+        stoplist = stoplist.add_stopwords(new_stopwords)
+        all_stopwords = stoplist
+        return [Preprocessor.preprocess(Preprocessor(x, all_stopwords)) for x in self.corpus]
+        #raw_textfield = input()
+        #preprocessor = Preprocessor(raw_textfield, all_stopwords)
+        #print(Preprocessor.preprocess(preprocessor))
+        #return Preprocessor.preprocess(preprocessor)
+
+class TfidfModeler():
+    # instantiate class
+    def __init__(self, preprocessed_corpus):
+        self.corpus = preprocessed_corpus
+        self.dictionary = {}
+        self.bow_corpus = []
+        self.corpus_tfidf = []
+
+    def apply_tfidf(self):
+        self.dictionary = gensim.corpora.Dictionary(self.corpus)
+        self.dictionary.filter_extremes(no_below = 10, no_above = 0.2)
+        self.bow_corpus = [self.dictionary.doc2bow(x) for x in self.corpus]
+        tfidf = models.TfidfModel(self.bow_corpus)
+        self.corpus_tfidf = tfidf[self.bow_corpus]
+        return self.dictionary, self.bow_corpus, self.corpus_tfidf
+
+    def indiv_doc_tfidf(self, document_id, n_top_terms=5):
+        max_n = heapq.nlargest(n_top_terms, self.corpus_tfidf[document_id], key=lambda x:x[1])
+        finished_tfidf = [(self.dictionary.get(id), value) for id, value in max_n]
+        tfidf_topics = " ".join([x[0] for x in finished_tfidf])
+        return tfidf_topics
+
+class LDAModeler():
+    def __init__(self, preprocessed_corpus):
+        self.corpus = preprocessed_corpus
+        tfidf_lda = TfidfModeler(self.corpus)
+        self.dictionary, self.bow_corpus, self.corp_lda_tfidf = TfidfModeler.apply_tfidf(tfidf_lda)
+        self.lda_model = None
+
+    def run_lda(self, passes = 2):
+        self.lda_model = gensim.models.LdaMulticore(self.bow_corpus,
+                                               id2word = self.dictionary,
+                                               passes = passes,
+                                               workers = 3)
+        def format_lda_topics(string):
+            return string[string.find("*")+1:].replace("\"","")
+
+        for idx, topic in self.lda_model.print_topics(-1):
+            full_topic = "Topic: {} \nWords: {}".format(idx, topic)
+            lda_topic_joined = "".join([format_lda_topics(x) for x in topic.split("+")])
+            print("\n")
+        return self.lda_model
+
+    def print_all_lda_matches(self, document_num):
+        for index, score in sorted(self.lda_model[self.bow_corpus[document_num]], key=lambda tup: -1*tup[1]):
+            print("\nScore: {}\t \nTopic: {}".format(score, self.lda_model.print_topic(index, 10)))
+  
+
+    def print_some_lda_matches(self, document_num, threshold):
+        for index, score in sorted(self.lda_model[self.bow_corpus[document_num]], key=lambda tup: -1*tup[1]):
+            if score >= threshold:
+                print("\nScore: {}\t \nTopic: {}".format(score, self.lda_model.print_topic(index, 10)))
+            else:
+                continue
+
+    def print_top_lda_match(self, document_num):
+        max_index, max_score = max(self.lda_model[self.bow_corpus[document_num]], key=lambda x:x[1])
+        print("\nScore: {}\t \nTopic: {}".format(max_score, self.lda_model.print_topic(max_index, 10)))
+
+
+
+'''
+    def print_all_lda_matches(self.lda_model, self.bow_corpus, document_num):
+        for index, score in sorted(self.lda_model[self.bow_corpus[document_num]], key=lambda tup: -1*tup[1]):
+            print("\nScore: {}\t \nTopic: {}".format(score, self.lda_model.print_topic(index, 10)))
+
+
+    def print_n_lda_matches(self.lda_model, self.bow_corpus, document_num, n_top_topics = 3):
+        topics_list = [(idx, topic) for idx, topic in self.lda_model.print_topics(-1)]
+        sorted_lda_scores = sorted(self.lda_model[self.bow_corpus[document_num]], key=lambda tup: -1*tup[1])
+        max_n = heapq.nlargest(n_top_topics, sorted_lda_scores, key=lambda x:x[1])
+        for index, topic_score in max_n:
+            print("\nTopic: {}\nMatching score: {}\n{}\n".format(topics_list[index][0], topic_score, topics_list[index][1]))
+
+
+
+
 class EnglishPreprocessor(eng_corpus):
     def __init__(self):
         self.eng_corpus = eng_corpus
@@ -150,10 +278,19 @@ class EnglishTLDR(corpus):
     def english_tldr(corpus, document_num):
         print(summarize(corpus[document_num]))
 
-if __name__ == "__main__":
-    #Establish Class TextExtraction
-    root = "/User/chanejackson/Desktop/"
-    c = TextExtraction()
+'''
 
-    #Run the program to get the text files
-    c.getFiles()
+if __name__ == "__main__":
+
+
+    full_text_prep = FullTextPreparation(base_stopwords, sample_corpus)
+    prepped_corpus = FullTextPreparation.algorithms_prework(full_text_prep)
+
+    tfidf = TfidfModeler(prepped_corpus)
+    TfidfModeler.apply_tfidf(tfidf)
+
+    lda_instance = LDAModeler(prepped_corpus)
+    corpus_lda = LDAModeler.run_lda(lda_instance)
+    LDAModeler.print_top_lda_match(lda_instance, 18)
+
+
