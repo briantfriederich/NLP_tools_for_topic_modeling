@@ -26,41 +26,86 @@ import matplotlib.pyplot as plt
 from googletrans import Translator
 from gensim.summarization.summarizer import summarize
 
+# Set variables for global use
 lemmatizer = WordNetLemmatizer()
-#eng_stopwords = set(stopwords.words('english'))
-#arabic_stopwords = pd.read_csv('arabic_stopwords.txt', header=None)
-#arabic_stopwords = arabic_stopwords[0].values.tolist()
-
-# set random seed for reproducable results
-np.random.seed(45)
-
 eng_stopwords = set(stopwords.words('english'))
 ar_stopwords_df = pd.read_csv('arabic_stopwords.txt', header=None)
 ar_stopwords = ar_stopwords_df[0].values.tolist()
 base_stopwords = eng_stopwords.union(ar_stopwords)
 
+# set random seed for reproducable results
+np.random.seed(45)
+
+#testing corpus
+
 sample_corpus = pd.read_csv("irony-labeled.csv")['comment_text']
 
 
 class StopwordsList():
+    '''
+    This class compiles a stopwords list from existing Arabic and English
+    stopwords as well as custom stopwords added by the user.
+
+    METHODS:
+        __init__
+        add_stopwords
+    '''
     def __init__(self, stopwords):
+        '''
+        INPUTS:
+        stopwords (set): base set of stopwords
+        '''
         self.stopwords = base_stopwords
         self.extra_stopwords = set()
 
     def add_stopwords(self, extra_stopwords):
+        '''
+        This method appends custom stopwords from user onto stopwords list
+
+        INPUTS:
+            extra_stopwords (str): extra stopwords comma-delimited
+
+        OUTPUTS:
+            stopwords (set): full stopwords list of base and custom words
+        '''
         self.extra_stopwords = set(extra_stopwords.split(","))
         self.stopwords = self.stopwords.union(self.extra_stopwords)
         return self.stopwords
 
 class Preprocessor():
+    '''
+    This class preprocesses a text field for use in later algorithms
+
+    METHODS:
+        __init__
+        print_textfield
+        preprocess
+    '''
     def __init__(self, textfield, all_stopwords):
+        '''
+        INPUTS:
+            textfield (str): text unit to be preprocessed
+            all_stopwords (set): full stopwords list including custom words
+        '''
         self.textfield = textfield
         self.all_stopwords = all_stopwords
 
     def print_textfield(self):
+        '''
+        Prints incoming textfield for debugging
+        '''
         print(self.textfield)
 
     def preprocess(self):
+        '''
+        This method preprocesses the incoming unit of text by removing
+        non-alphabetic and non-Arabic characters, lowercasing alphabetic
+        characters, tokenizing on spaces, replacing single-letter and empty
+        tokens, and removing all stopwords.
+
+        OUTPUTS:
+            textfield (list): bag-of-words processed textfield
+        '''
         self.textfield = re.sub("[^a-zA-Z\u0621-\u064A]+", " ", self.textfield).lower()
         self.textfield = self.textfield.split(" ")
         self.textfield = [x for x in self.textfield if x != "" and len(x) > 1]
@@ -69,24 +114,47 @@ class Preprocessor():
 
 
 class FullTextPreparation():
+    '''
+    This class ties the custom stopwords and preprocessing scripts together.
+
+    METHODS:
+        __init__
+        algorithms_prework
+
+    '''
     def __init__(self, stopwords, corpus):
+        '''
+        INPUTS:
+            stopwords (set): base stopwords list
+            corpus (list): list of individual documents' texts
+        '''
         self.stopwords = stopwords
         self.corpus = corpus
 
     def algorithms_prework(self):
+        '''
+        This method runs the stopword and preprocessing texts in sequence.
+
+        OUTPUTS:
+            preprocessed_corpus (list): list of lists, each mega-item is a preprocessed document
+        '''
         print("Enter New Stopwords: ")
         new_stopwords = input()
         stoplist = StopwordsList(self.stopwords)
         stoplist = stoplist.add_stopwords(new_stopwords)
         all_stopwords = stoplist
-        return [Preprocessor.preprocess(Preprocessor(x, all_stopwords)) for x in self.corpus]
-        #raw_textfield = input()
-        #preprocessor = Preprocessor(raw_textfield, all_stopwords)
-        #print(Preprocessor.preprocess(preprocessor))
-        #return Preprocessor.preprocess(preprocessor)
+        preprocessed_corpus = [Preprocessor.preprocess(Preprocessor(x, all_stopwords)) for x in self.corpus]
+        return preprocessed_corpus
 
 class TfidfModeler():
-    # instantiate class
+    '''
+    This class applies a Tf-Idf transform to the preprocessed corpus.
+
+    METHODS:
+        __init__
+        apply_tfidf
+        indiv_doc_tfidf
+    '''
     def __init__(self, preprocessed_corpus):
         self.corpus = preprocessed_corpus
         self.dictionary = {}
