@@ -1,0 +1,1252 @@
+FM 23-10
+
+CHAPTER 7
+
+COMMUNICATIONS
+
+The basic requirement of combat communications is to provide
+rapid, reliable, and secure interchange of information.
+
+Section I
+
+FIELD-EXPEDIENT ANTENNAS
+
+Communications are a vital aspect in successful mission accomplishment.
+The information in this section helps the sniper team maintain effective
+communications and correct any radio antenna problems.
+7-1. REPAIR TECHNIQUES
+Antennas are sometimes broken or damaged, causing either a
+communications failure or poor communications. If a spare antenna is
+available, the damaged antenna is replaced. When there is no spare, the
+sniper team may have to construct an emergency antenna. The following
+paragraphs contain suggestions for repairing antennas and antenna
+supports and the construction and adjustment of emergency antennas.
+
+DANGER
+
+SERIOUS INJURY OR DEATH CAN RESULT FROM
+CONTACT WITH THE RADIATING ANTENNA OF A
+MEDIUM-POWER  OR  HIGH-POWER  TRANSMITTER.
+TURN THE TRANSMITTER OFF WHILE MAKING
+ADJUSTMENTS TO THE ANTENNA.
+
+a. Whip Antennas. When a whip antenna is broken into two
+sections, the part of the antenna that is broken off can be connected to
+the part attached to the base by joining the sections. (Use the method
+
+7-1
+
+FM 23-10
+
+shown in A, Figure 7-1, when both parts of the broken whip are available
+and usable.) (Use the method in B, Figure 7-1, when the part of the whip
+that was broken off is lost or when the whip is so badly damaged that it
+cannot be used.) To restore the antenna to its original length, a piece of
+wire is added that is nearly the same length as the missing part of the whip.
+The pole support is then lashed securely to both sections of the antenna.
+The two antenna sections are cleaned thoroughly to ensure good contact
+before connecting them to the pole support. If possible, the connections
+are  soldered.
+
+b. Wire Antennas. Emergency repair of a wire antenna may involve
+the repair or replacement of the wire used as the antenna or transmission
+line; or the repair or replacement of the assembly used to support
+the antenna.
+
+(1) When one or more wires of an antenna are broken, the antenna
+can be repaired by reconnecting the broken wires. To do this, lower the
+antenna to the ground, clean the ends of the wires, and twist the
+wires together. Whenever possible, solder the connection.
+
+7-2
+
+FM 23-10
+
+(1) The exact length of most antennas is critical. The emergency
+
+antenna should be the same length as the antenna it replaces.
+
+(2) Antennas supported by trees can usually survive heavy wind
+storms if the trunk of a tree or a strong branch is used as a support.
+To keep the antenna taut and to prevent it from breaking or stretching as
+the trees sway, the sniper attaches a spring or old inner tube to one end
+of the antenna. Another technique is to pass a rope through a pulley
+or eyehook. The rope is attached to the end of the antenna and loaded
+with a heavyweight to keep the antenna tightly drawn.
+
+(3) Guidelines used to hold antenna supports are made of rope
+or wire. To ensure the guidelines will not affect the operation of the
+antenna, the sniper cuts the wire into several short lengths and connects
+the pieces with insulators.
+
+b. Adjustment. An improvised antenna may change the performance
+of a radio set. The following methods can be used to determine if the
+antenna is operating properly
+
+(1) A distant station may be used to test the antenna. If the signal
+received from this station is strong, the antenna is operating satisfactorily.
+If the signal is weak, the sniper adjusts the height and length of the antenna
+and the transmission line to receive the strongest signal at a given setting
+on the volume control of the receiver. This is the best method of tuning
+an antenna when transmission is dangerous or forbidden.
+
+(2) In some radio sets, the sniper uses the transmitter to adjust
+the antenna. First, he sets the controls of the transmitter to normal; then,
+he tunes the system by adjusting the antenna height, the antenna length,
+and the transmission line length to obtain the best transmission output.
+7-3. FIELD-EXPEDIENT OMNIDIRECTIONAL ANTENNAS
+Vertical antennas are omnidirectional. The omnidirectional antenna
+transmits and receives equally well in all directions. Most tactical
+antennas are vertical; for example, the man-pack portable radio uses a
+vertical whip and so do the vehicular radios in tactical vehicles. A vertical
+antenna can be made by using a metal pipe or rod of the correct length,
+held erect by means of guidelines. The lower end of the antenna should
+be insulated from the ground by placing it on a large block of wood or
+other insulating material. A vertical antenna may also be a wire
+supported by a tree or a wooden pole (Figure 7-3). For short vertical
+antennas, the pole may be used without guidelines (if properly supported
+at the base). If the length of the vertical mast is not long enough to
+support the wire upright, it may be necessary to modify the connection at
+the top of the antenna (Figure 7-4). (See FM 24-18.)
+
+7-4
+
+FM 23-10
+
+a. End-Fed Half-Wave Antenna. An emergency, end-fed half-wave
+antenna (Figure 7-5, page 7-6) can be constructed from available materials
+such as field wire, rope, and wooden insulators. The electrical length of
+
+7-5
+
+FM 23-10
+
+(1) Compute the length of a half-wave antenna by using the formula
+in paragraph 7-5. Cut the wires as close as possible to the correct length;
+this is very important.
+
+(2) Uses transmission line for conducting electrical energy from one
+point to another and for transferring the output of a transmitter to
+an antenna. Although it is possible to connect an antenna directly to a
+transmitter, the antenna is usually located some distance away.
+
+(3) Support center-fed half-wave FM antennas entirely with pieces
+of wood. (A horizontal antenna of this type is shown in A, Figure 7-7,
+page 7-8, and a vertical antenna in B, Figure 7-7.) Rotate these antennas
+to any position to obtain the best performance.
+
+(a) If the antenna is erected vertically, bring out the transmission line
+horizontally from the antenna for a distance equal to at least one-half of
+the antenna’s length before it is dropped down to the radio set.
+
+(b) The half-wave antenna is used with FM radios (Figure 7-8,
+page 7-8). It is effective in heavily wooded areas to increase the range of
+portable radios. Connect the top guidelines to a limb or pass it over the
+limb and connect it to the tree trunk or a stake.
+
+7-7
+
+FM 23-10
+
+7-8
+
+FM 23-10
+
+7-4. FIELD-EXPEDIENT DIRECTIONAL ANTENNAS
+The vertical half-rhombic antenna (Figure 7-9) and the long-wire
+antenna  (Figure  7-10)  are  two  field-expedient  directional  antennas.
+These antennas consist of a single wire, preferably two or more
+wavelengths long, supported on poles at a height of 3 to 7 meters (10 to
+20 feet) above the ground. The antennas will, however, operate
+satisfactorily as low as 1 meter (about 3 feet) above the ground—the
+radiation pattern is directional. The antennas are used mainly for either
+transmitting  or  receiving  high-frequency  signals.
+
+7-9
+
+FM 23-10
+
+a. The V antenna (Figure 7-11) is another field-expedient directional
+antenna. It consists of two wires forming a V with the open area of the V
+pointing toward the desired direction of transmission or reception.
+To make construction easier, the legs should slope downward from the
+apex of the V; this is called a sloping-V antenna  (Figure 7-12). The angle
+between the legs varies with the length of the legs to achieve maximum
+performance. (to determine the angle and the length of the legs, use the
+table in Table 7-l.)
+
+b. When the antenna is used with more than one frequency or
+wavelength, use an apex angle that is midway between the extreme angles
+determined by the chart. To make the antenna radiate in only one
+direction, add noninductive terminating resistors from the end of each leg
+(not at the apex) to ground. (See TM 11-666.)
+
+7-10
+
+FM 23-10
+
+7-11
+
+.
+
+FM 23-10
+
+7-5. ANTENNA LENGTH
+The length of an antenna must be considered in two ways: both a physical
+and an electrical length. These two lengths are never the same. The
+reduced velocity of the wave on the antenna and a capacitive effect (known
+as end effect) make the antenna seem longer electrically than it is
+physically. The contributing factors are the ratio of the diameter of the
+antenna to its length and the capacitive effect of terminal equipment, such
+as insulators and clamps, used to support the antenna.
+
+a. To calculate the physical length of an antenna, use a correction of
+0.95 for frequencies between 3.0 and 50.0 MHz The figures given below
+are for a half-wave antenna.
+
+Length (meters) =
+
+150  x  0.95  =
+
+142.5
+
+Frequency in MHz
+
+Frequency in MHz
+
+Length (feet) =
+
+492  X  0.95  =
+
+468
+
+Frequency in MHz
+
+Frequency in MHz
+
+b. Use the following formula to calculate the length of a long-wire
+
+antenna (one wavelength or longer) for harmonic operation:
+
+Length (meters) = 150 (N–0.05)
+
+Frequency in MHz
+
+Length (feet) =
+
+492 (N-0.05)
+
+Frequency in MHz
+
+N equals the number of half-wavelengths in the total length of the
+antenna. For example, if the number of half-wavelengths is 3 and
+the frequency in MHz is 7, then—
+
+Length (meters) =
+
+150(N-0.05)
+
+= 1 50(3-.05) =
+
+Frequency in MHz
+
+7
+
+150 X 2.95 = 442.50 = 63.2 meters
+
+7
+
+7
+
+7-12
+
+FM 23-10
+
+7-6.  ANTENNA  ORIENTATION
+If the azimuth of the radio path is not provided, the azimuth should be
+determined by the best available means. The accuracy required in
+determining the azimuth of the path depends on the radiation pattern of
+the directional antenna. In transportable operation, the rhombic and V
+antennas may have such a narrow beam as to require great accuracy in
+azimuth determination. The antenna should be erected for the
+correct azimuth. Great accuracy is not required in erecting broad-beam
+antennas. Unless a line of known azimuth is available at the site, the
+direction of the path is best determined by a magnetic compass.
+7-7. IMPROVEMENT OF MARGINAL COMMUNICATIONS
+Under certain situations, it may not be feasible to orient directional
+antennas to the correct azimuth of the desired radio path. As a result,
+marginal communications may suffer. To improve marginal communi-
+cations, the following procedure can be used:
+
+a. Check, tighten, and tape cable couplings and connections.
+b. Return all transmitters and receivers in the circuit.
+c. Ensure antennas are adjusted for the proper operating frequency.
+d. Change the heights of antennas.
+e. Move the antenna a short distance away and in different locations
+
+from its original location.
+
+RADIO OPERATIONS UNDER UNUSUAL CONDITIONS
+
+Section II
+
+The possibility of being deployed to different parts of the world presents
+many problems for the sniper team due to extremes in climate and terrain.
+This section informs the sniper team of these common problems and
+possible solutions to eliminate or reduce adverse effects.
+7-8. ARCTIC AREAS
+Single-channel radio equipment has certain capabilities and limitations
+that must be carefully considered when operating in cold areas.
+However, in spite of limitations, radio is the normal means of commun-
+ications in such areas. One of the most important capabilities of the radio in
+Arctic-like areas is its versatility. Man-packed radios can be carried to any
+point accessible by foot or aircraft. A limitation on radio communications
+that radio operators must expect in extremely cold areas is interference by
+ionospheric disturbances. These disturbances, known as ionospheric
+storms, have a definite degrading effect on skywave propagation. Moreover,
+either the storms or the auroral (such as northern lights) activity can cause
+complete failure of radio communications. Some frequencies may be
+
+7-13
+
+FM 23-10
+
+blocked completely by static for extended periods during storm activity.
+Fading, caused by changes in the density and height of the ionosphere, can
+also occur and may last from minutes to weeks. The occurrence of these
+disturbances is difficult to predict. When they occur, the use of alternate
+frequencies and a greater reliance on FM or other means of communications
+are  required.
+
+a. Antenna Installation. Antenna installation in Arctic-like areas
+presents no serious problems. However, installing some antennas may
+take longer because of adverse working conditions. Some suggestions for
+installing antennas in extremely cold areas areas follows:
+
+(1) Antenna cables must be handled carefully since they become
+
+brittle  in  low  temperatures.
+
+(2) Whenever possible, antenna cables should be constructed
+overhead to prevent damage from heavy snow and frost. Nylon rope
+guidelines, if available, should be used in preference to cotton or hemp
+because nylon ropes do not readily absorb moisture and are less likely to
+freeze and break.
+
+(3) An antenna should have extra guidelines, supports, and anchor
+
+stakes to strengthen it to withstand heavy ice and wind.
+
+(4) Some radios (usually older generation radios) adjusted to a
+specific frequency in a relatively warm place may drift off frequency when
+exposed to extreme cold. Low battery voltage can also cause frequency drift.
+When possible, a radio should warmup several minutes before placing it
+into operation. Since extreme cold tends to lower output voltage of a dry
+battery, warming the battery with body heat before operating the radio set
+can reduce frequency drift.
+
+(5) Flakes or pellets of highly electrically charged snow is sometimes
+experienced in northern regions. When these particles strike the
+antenna, the resulting electrical discharge causes a high-pitched static
+roar that can blanket all frequencies. To overcome this static, antenna
+elements can be covered with polystyrene tape and shellac.
+
+b. Maintenance Improvement in Arctic Areas. The maintenance of
+radio equipment in extreme cold presents many problems. Radio sets
+must be protected from blowing snow since snow will freeze to dials and
+knobs and blow into the wiring to cause shorts and grounds. Cords must
+be handled carefully as they may lose their flexibility in extreme cold.
+All radio equipment must be properly winterized. The appropriate
+technical manual should be checked for winterization procedures.
+Some suggestions for maintenance in Arctic areas include:
+
+(1) Batteries. The effect of cold weather conditions on wet and dry
+cell batteries depends on the following factors: the type and kind of
+
+7-14
+
+FM 23-10
+
+battery, the load on the battery, the specific use of the battery, and the
+degree of exposure to cold temperatures.
+
+(2) Winterization. The radio set technical manual should rechecked for
+special precautions for operation in extremely cold climates. For example,
+normal lubricants may solidify and cause damage or malfunctions.
+They must be replaced with the recommended Arctic lubricants.
+
+(3) Microphone.  Moisture from the sniper’s breath may freeze on the
+perforated cover plate of his microphone. Standard microphone covers
+can be used to prevent this. If standard covers are not available, a suitable
+cover can be improvised from rubber or cellophane membranes or from
+rayon or nylon cloth.
+
+(4) Breathing and sweating. A radio set generates heat when it
+is operated. When turned off, the air inside the radio set cools and
+contracts, and draws cold air into the set from the outside. This is
+called breathing. When a radio breathes and the still-hot parts come in
+contact with subzero air, the glass, plastic, and ceramic parts of the set may
+cool too rapidly and break. When cold equipment is brought suddenly
+into contact with warm air, moisture condenses on the equipment parts.
+This is called sweating. Before cold equipment is brought into a heated
+area, it should be wrapped in a blanket or parka to ensure that it warms
+gradually to reduce sweating. Equipment must be thoroughly dry before
+it is taken into the cold air or the moisture will freeze.
+
+7-9. JUNGLE AREAS
+Radio communications in jungle areas must be carefully planned, because
+the dense jungle growth reduces the range of radio transmission.
+However, since single-channel radio can be deployed in many
+configurations, especially man-packed, it is a valuable communications
+asset. The capabilities and limitations of single-channel radio must be
+carefully considered when used by forces in a jungle environment.
+The mobility and various configurations in which a single-channel radio
+can be deployed are its main advantages in jungle areas. Limitations on
+radio communications in jungle areas are due to the climate and the
+density of jungle growth. The hot and humid climate increases
+maintenance problems of keeping the equipment operable. Thick jungle
+growth acts as a vertically polarized absorbing screen for radio frequency
+energy that, in effect, reduces transmission range. Therefore, increased
+emphasis on maintenance and antenna siting is a must when operating in
+jungle areas.
+
+a. Jungle Operational Techniques. The main problem in establishing
+radio communications in jungle areas is the siting of the antenna.
+
+7-15
+
+FM 23-10
+
+The following techniques can be applied to improve communications in
+the jungle:
+
+(1) Locate antennas in clearings on the edge farthest from the distant
+
+station and as high as possible.
+
+(2) Keep antenna cables and connectors off the ground to lessen the
+effects of moisture, fungus, and insects. This also applies to all power and
+telephone cables.
+
+(3) Use complete antenna systems, such as ground planes and
+
+dipoles, for more effect than fractional wavelength whip antennas.
+
+(4) Clear vegetation from antenna sites. If an antenna touches any
+
+foliage, especially wet foliage, the signal will be grounded.
+
+(5) When wet, vegetation acts like a vertically polarized screen and
+absorbs much of a vertically polarized signal. Use horizontally polarized
+antennas in preference to vertically polarized antennas.
+
+b. Maintenance Improvement in the Jungle. Due to moisture and
+fungus, the maintenance of radio sets in tropical climates is more difficult
+than intemperate climates The high relative humidity causes condensation
+to form on the equipment and encourages the growth of fungus.
+Operators and maintenance personnel should check appropriate technical
+manuals for special maintenance requirements. Some techniques for
+improving maintenance in jungle areas follow:
+
+(1) Keep the equipment as dry as possible and in lighted areas to
+
+retard fungus growth.
+
+dry the equipment.
+
+growth as possible.
+
+(2) Clear all air vents of obstructions so air can circulate to cool and
+
+(3) Keep connectors, cables, and bare metal parts as free of fungus
+
+(4) Use moisture and fungus-proofing paint to protect equipment
+
+after repairs are made or when equipment is damaged or scratched.
+
+c. Expedient Antennas.  Sniper teams can improve their ability to
+communicate in the jungle by using expedient antennas. While moving, the
+team is usually restricted to using the short and long antennas that come
+with the radios. However, when not moving, snipers can use these
+expedient antennas to broadcast farther and to receive more clearly.
+However, an antenna that is not “tuned” or “cut” to the operating
+frequency is not as effective as the whips that are supplied with the radio.
+Circuits inside the radio “load” the whips properly so that they are “tuned”
+to give the greatest output. Whips are not as effective as a tuned doublet
+or tuned ground plane (namely RC 292-type), but the doublet or ground
+
+7-16
+
+FM 23-10
+
+plane must be tuned to the operating frequency. This is especially critical
+with low-power radios such as the AN/PRC-77.
+
+(1) Expedient 292-type antenna. The  expedient  292-type  antenna
+was developed for use in the jungle and, if used properly, can increase
+the team’s ability to communicate. In its entirety, the antenna is bulky,
+heavy, and not acceptable for sniper team operations. The team can,
+however, carry only the mast head and antenna sections, mounting
+these on wood poles or hanging them from trees; or, the team can make
+a complete expedient 292-type antenna (Figure 7-13, page 7-18), using
+WD-1, wire, and other readily available material. The team can also
+use almost any plastic, glass, or rubber objects for insulators. Dry
+wood is acceptable when nothing else is available. (See Figure 7-2 for
+types of insulators that may be used.) The following describes how to
+make  this  antenna:
+
+(a) Use the quick-reference table (Table 7-2, page 7-19) to determine
+the length of the elements (one radiating and three ground planes) for the
+frequency that will be used. Cut these elements (A, Figure 7-13,
+page 7-18) from WD-1 field wire (or similar wire). Cut spacing sticks
+(B, Figure 7-13) the same length. Place the ends of the sticks together to
+form a triangle and tie the ends with wire, tape, or rope. Attach an
+insulator to each corner. Attach a ground-plane wire to each insulator.
+Bring the other ends of the ground-plane wires together, attach them to
+an insulator (C, Figure 7-13, page 7-18), and tie securely. Strip about
+3 inches of insulation from each wire and twist them together.
+
+(b) Tie one end of the radiating element wire to the other side of
+insulator C and the other end to another insulator (D, Figure 7-13).
+Strip about 3 inches of insulation from the radiating element at
+insulator C.
+
+(c) Cut enough WD-1 field wire to reach from the proposed location
+of the antenna to the radio set. Keep this line as short as possible, because
+excess length reduces the efficiency of the system. Tie a knot at each end
+to identify it as the “hot” lead. Remove insulation from the “hot” wire
+and tie it to the radiating element wire at insulator C. Remove insulation
+from the other wire and attach it to the bare ground-plane element wires
+at insulator C. Tape all connections and do not allow the radiating
+element wire to touch the ground-plane wires.
+
+(d) Attach a rope to the insulator on the free end of the radiating
+element and toss the rope over the branches of a tree. Pull the antenna
+as high as possible, keeping the lead-in routed down through the triangle.
+Secure the rope to hold the antenna in place.
+
+7-17
+
+FM 23-10
+
+(e) At the radio set, remove about 1 inch of insulation from the “hot”
+lead and about 3 inches of insulation from the other wire. Attach the
+“hot” line to the antenna terminal (doublet connector, if so labeled).
+Attach the other wire to the metal case-the handle, for example. Be sure
+both connections are tight or secure.
+
+(f) Set up correct frequency, turn on the set, and proceed with
+
+communications.
+
+(2) Expedient patrol antenna. This is another antenna that is easy
+to carry and quick to set up (Figure 7-14, page 7-20). The two radiating
+wires are cut to the length shown in Table 7-2 for the operating
+frequency. For the best results, the lead-in should extend at least 1.8
+meters (6 feet) at right angles (plus or minus 30 degrees) to the
+antenna section before dropping to the radio set. The easiest way to
+set up this antenna is to measure the length of the radiating elements
+from one end of the lead-in (WD-1) and tie a knot at that point. The
+two wires are separated: one is lifted vertically by a rope and insulator;
+
+7-18
+
+FM 23-10
+
+the other is held down by a rock or other weight and a rope and insulator.
+The antenna should be as high as possible. The other end of the
+lead-in is attached to the radio set as described in paragraph 7-9c(l),
+expedient 292-type antenna.
+
+7-19
+
+FM 23-10
+
+7-10. DESERT AREAS
+Radio is usually the primary means of communications in the desert. It can
+be employed effectively in desert climate and terrain to provide a highly
+mobile means of communications demanded by widely dispersed forces.
+
+a. Techniques for Better Operations. For the best operation in the
+desert, radio antennas should be located on the highest terrain available.
+In the desert, transmitters using whip antennas lose one-fifth to one-third
+of their normal range due to the poor electrical grounding common to desert
+terrain. For this reason, complete antenna systems must be used such as
+horizontal dipoles and vertical antennas with adequate counterpoises.
+
+b. Equipment Considerations.  Some radios automatically switch on
+their second blower fan if their internal temperature rises too high.
+Normally, this happens only in temperate climates when the radios
+are transmitting. This may disturb soldiers unaccustomed to radio
+operation in the desert environment. Operation of the second fan,
+however, is quite normal. Radio frequency power amplifiers used in AM
+and single sideband sets may overheat and burn out. Such equipment
+should be turned on only when necessary (signal reception is not affected).
+Since the RF power amplifiers take about 90 seconds to reach the
+operating mode, the SOP of units using the equipment allows for delays
+in  replying.  Dust  affects  communications  equipment  such  as  SSB/AMRF
+
+7-20
+
+FM 23-10
+
+power  amplifiers  and  radio  teletypewriter  sets.  Radio  teletypewriter  sets
+are prone to damage due to the vulnerability of the oil lubrication system,
+which attracts and holds dust particles. Dust covers, therefore, should be
+used when possible. Some receiver-transmitter units have ventilating
+ports and channels that can get clogged with dust. These must be checked
+regularly and kept clean to prevent overheating.
+
+c. Batteries. Dry battery supplies must be increased, since hot
+
+weather causes batteries to fail more rapidly.
+
+d. Electrical Insulation. Wind-blown sand and grit damage
+electrical wire insulation over time. All cables that are likely to be
+damaged should be protected with tape before insulation becomes worn.
+Sand also finds its way into parts of items, such as “spaghetti cord” plugs,
+either preventing electrical contact or making it impossible to join the
+plugs together. A brush, such as an old toothbrush, should be carried and
+used to clean such items before they are joined.
+
+e. Condensation. In deserts with relatively high dew levels and high
+humidity, overnight condensation can occur wherever surfaces are cooler
+than the air temperature, such as metals exposed to air. This condensation
+can affect electrical plugs, jacks, and connectors. All connectors likely to
+be affected by condensation should be taped to prevent moisture from
+contaminating the contacts. Plugs should be dried before inserting them
+into equipment jacks. Excessive moisture or dew should be dried from
+antenna connectors to prevent arcing.
+
+f. Static Electricity. Static electricity is prevalent in the desert. It is
+caused by many factors, one of which is wind-blown dust particles.
+Extremely low humidity contributes to static discharges between charged
+particles. Poor grounding conditions aggravate the problem. All sharp
+edges (tips) of antennas should be taped to reduce wind-caused static
+discharges and the accompanying noise. If operating from a fixed
+position, teams ensure that equipment is properly grounded.
+Since static-caused noise lessens with an increase infrequency, the highest
+frequencies that are available and authorized should be used.
+
+g. Maintenance Improvement. In desert areas, the maintenance of
+radio sets becomes more difficult due to the large amounts of sand, dust, or
+dirt that enter the equipment. Sets equipped with servomechanisms are
+especially affected. To reduce maintenance downtime, the team must keep
+sets in dustproof containers as much as possible. Air vent filters should also
+be kept clean to allow cool air to circulate to prevent overheating. Preventive
+maintenance checks should be made often. Also, the team should closely
+check the lubricated parts of the equipment. If dust and dirt mix with the
+lubricants, moving parts may be damaged.
+
+7-21
+
+.
+
+FM 23-10
+
+.
+
+7-11.  MOUNTAINOUS  AREAS
+Operation of radios in mountainous areas have many of the same
+problems as in northern or cold weather areas. The mountainous terrain
+makes the selection of transmission sites a critical task In addition, terrain
+restrictions often require radio relay stations for good communications.
+Due to terrain obstacles, radio transmissions often have to be by line
+of sight. Also, the ground in mountainous areas is often a poor electrical
+conductor. Thus, a complete antenna system, such as a dipole or
+ground-plane antenna with a counterpoise, should be used.
+The maintenance procedures required in mountainous areas are the same
+as for northern or cold weather areas. The varied or seasonal temperature
+and  climatic  conditions  in  mountainous  areas  make  flexible  maintenance
+planning a necessity.
+
+7-12. URBANIZED TERRAIN
+Radio communications in urbanized terrain pose special problems.
+Some problems are similar to those encountered in mountainous areas.
+Some problems include obstacles blocking transmission paths, poor
+electrical  conductivity  due  to  pavement  surfaces,  and  commercial  power
+line interference.
+
+a. Very high frequency radios are not as effective in urbanized terrain
+as they are in other areas. The power output and operating frequencies
+of these sets require a line of sight between antennas. Line of sight at
+street level is not always possible in built-up areas.
+
+b. High frequency radios do not require or rely on line of sight as
+much as VHF radios. This is due to operating frequencies being lower
+and power output being greater. The problem is that HF radio sets are
+not organic to small units. To overcome this, the VHF signals must
+be retransmitted.
+
+c. Retransmission stations in aerial platforms can provide the most
+effective means if available. Organic retransmission is more likely to
+be used. The antenna should be hidden or blended in with surroundings.
+This helps prevent the enemy from using it as a landmark to “home in”
+his artillery bombardment. Antennas can be concealed by water towers,
+existing  civilian  antennas,  or  steeples.
+
+7-13. NUCLEAR BIOLOGICAL AND CHEMICAL ENVIRONMENT
+One of the realities of fighting on today’s battlefield is the presence of
+nuclear weapons. Most soldiers are aware of the effects of nuclear blast,
+heat, and radiation. The ionization of the atmosphere by a nuclear
+
+7-22
+
+FM 23-10
+
+explosion will have degrading effects on communications due to static and
+the disruption of the ionosphere.
+
+a. Electromagnetic pulse results from a nuclear explosion and
+presents a great danger to our radio communications. An EMP is a strong
+pulse of electromagnetic radiation, many times stronger than the static
+pulse generated by lightning. This pulse can enter the radio through the
+antenna system, power connections, and signal input connections. In the
+equipment, the pulse can break down circuit components such as
+transistors, diodes, and integrated circuits. It can melt capacitors,
+inductors, and transformers, destroying a radio.
+
+b. Defensive measures against EMP call for proper maintenance,
+especially the shielding of equipment. When the equipment is not in use,
+all antennas and cables should be removed to decrease the effect of EMP
+on the equipment.
+
+Section III
+
+COMMUNICATIONS FORMATS
+
+Timely, accurate information reporting reduces the unknown aspects of
+the enemy and the area of operations, contributing to the commander’s
+risk assessment and successful application of combat power. This section
+provides the sniper team with a means of organized and rapid information
+delivery  through  reporting  formats.
+7-14. SPOT REPORT
+
+This paragraph complies with STANAG 2022.
+
+The sniper team uses the SPOTREP to report intelligence information.
+Each report normally describe a single observed event. When reporting
+groups of enemy vehicles, personnel report the location of the center of
+mass or indicate “from—to” coordinates. Higher headquarters sets the
+SPOTREP format, but the report usually follows the SALUTE format.
+LINE 1  The size of the enemy force observed.
+LINE 2   What the enemy was doing.
+LINE 3   Where the enemy was located.
+LINE 4    The unit to which the enemy belongs specified by markings
+
+on vehicles, distinctive features on uniforms, or special
+equipment that may identify the type enemy unit.
+
+LINE 5  Time the enemy was observed.
+
+7-23
+
+FM 23-10
+
+“C12, THIS IS STRIKER 1, SPOTREP, OVER.”
+
+LINE 6     Equipment the enemy carried, wore, or used.
+Example:
+“STRIKER 1, THIS IS Cl2 SEND MESSAGE, OVER.”
+“C12, THIS IS STRIKER 1. LINE 1: 3. LINE 2 MOVING IN A
+WESTERLY DIRECTION. LINE 3: GL024396. LINE 4:
+UNKNOWN. LINE 5: 2709911437. LINE 6: 1 SVD WITH PSO-1
+TELESCOPE. CAMOUFLAGED OVERGARMENT AND
+RUCKSACK TWO INDIVIDUALS CARRYING AKM-74 RIFLES.
+9-MM  MAKAROV  PISTOLS  WITH  SHOULDER  HOLSTERS  AND
+RUCKSACKS.”
+7-15. SITUATION REPORT
+
+This paragraph complies with STANAG 2020.
+
+The sniper team submits the SITREP to higher headquarters to report
+tactical situations and status. The team submits the report daily by
+0600 hours after significant events or as otherwise required by the SEO
+or commander. The sender says, “SITREP,” to alert the receiver of the
+type of report being sent. The following explains the reporting format
+according to line number:
+LINE 1  Report as of date-time group.
+LINE 2   Brief summary of enemy activity, casualties inflicted, prisoners
+
+captured.
+
+LINE 3   Your location (encrypted—if not using secure communications).
+LINE 4  Combat vehicles, operational.
+
+a. Improved TOW vehicle.
+b. M3 Bradley/Ml13Al.
+c. Ml.
+d. M60A3 tanks.
+e.  M106A1  mortar  carriers.
+f.  Armored  vehicle  launched  bridges  (AVLB).
+
+LINE 5  Defensive obstacles encoded.
+
+a. Coordinates of mine fields.
+b. Coordinates of demolitions executed.
+c. Coordinates of reserve demolition targets.
+
+7-24
+
+FM 23-10
+
+LINE 6  Personnel strength.
+
+a. Green (full strength, 90 percent or better on hand).
+b. Amber (reduced strength, 80 to 89 percent on hand).
+c. Red (reduced strength, 60 to 79 percent on hand, mission-capable).
+d. Black (reduced strength, 59 percent or lesson hand).
+
+LINE 7      Class III and V for combat vehicles.
+
+a. Ammunition—green, amber, red, or black.
+b. Fuel—green, amber, red, or black.
+LINE 8 Summary of tactical intentions.
+“RED 1, THIS IS RED 5; BLUE 2. LINE 1: 062230. LINE 2:
+Example:
+NEGATIVE CONTACT. LINE 3: I SET ES, STA NEL. LINE 4B: 1.
+LINE 5: ABATIS, 1 SET XB, RDJ ALT. LINE 6: GREEN. LINE 7A:
+GREEN. LINE 7B: AMBER. LINE 8: CONTINUING MISSION.”
+7-16. RECONNAISSANCE REPORT
+
+This paragraph complies with STANAG 2096.
+
+Due to the length and detail of a reconnaissance report, it should be
+sent by messenger rather than transmitted by radio. Graphic overlays
+and sketches are normally included with the report. The following
+explains the reporting format according to line number:
+LINE 1 OR HEADING (collection data).
+
+a.  DTG  information  collected.
+b. DTG information received.
+c. Reporting unit.
+
+LINE 2 OR 3 CAPITAL ROUTE CLASSIFICATION (data for a
+route classification).
+a. Start point.
+b. Checkpoint/release point.
+c. Classification (code).
+d.  Trafficability  (code).
+e. Movement (code).
+f. Location of critical points.
+
+7-25
+
+FM 23-10
+
+LINE 3 OR BRIDGE CLASSIFICATION (data for a bridge
+classification).
+
+a. Location.
+b. One-way class.
+c.  Two-way class.
+d.  Overhead  clearance.
+e. Bypass location.
+f. Bypass (code).
+g. Slope of entry bank.
+h. Slope of exit bank.
+
+LINE 4 OR FORDING/SWIM SITE (data for a ford or swim site).
+
+a. Location.
+b. Velocity (water speed).
+c. Depth.
+d. Type bottom (code).
+e.  Width.
+f. Length.
+g. Slope of entry bank.
+h. Slope of exit bank.
+
+LINE 5 OR TUNNEL CLASSIFICATION (data for a tunnel classification).
+
+a. Location.
+b.  Usable  width.
+c.  Overhead  clearance.
+d. Length.
+e. Bypass location.
+
+LINE 6 OR OBSTACLES (obstacle information).
+
+a. Location.
+b. Slope (code).
+c. Type (code).
+d. Length.
+e. Bypass location.
+
+7-26
+
+FM 23-10
+
+f.  Dimensions.
+
+(1) From:
+(2) To:
+(3) To:
+
+CODES: Classification
+
+GREEN - all vehicles.
+AMBER - no AVLBs.
+RED - armed personnel carriers/BFVs.
+BLACK -1 l/4-ton wheels or less.
+
+Trafficability
+
+X - all weather.
+Y - limited weather.
+Z - fair weather.
+
+Movement
+
+F - fast.
+S - slow.
+
+Bypass
+
+E - easy.
+D - difficult.
+Type bottom
+M - mud.
+C  - clay.
+S - sand.
+G - gravel.
+R - rock.
+P - paving.
+
+Slope
+
+A - less than 7 percent.
+B - 7 or 10 percent.
+C - 10 to 14 percent.
+D - Over 14 percent.
+
+7-27
+
+FM 23-10
+
+Type  obstacle
+
+MF - mine field.
+TD - tank ditch.
+RF - rockfall or slide.
+CH - chemical.
+NBC - radiological.
+RB - roadblock.
+AB - abatis.
+O - other.
+
+NOTES:     1. During reconnaissance., report items as they occur, since
+
+they  are  time-sensitive.
+2. If time permits, submit overlays to the S2 during briefing.
+The S2 routinely consolidates details of terrain features and
+passes them to higher headquarters at the end of the debriefing.
+
+Example: “C12, THIS IS STRIKER 1, RECONREP OVER.”
+“STRIKER 1, THIS IS Cl2; SEND MESSAGE, OVER.”
+“C12, THIS IS STRIKER 1. LINE 1A: 2609910800. LINE lC: ST 1.
+LINE 2A: I SET DL, JAR CMN. LINE 2B: SIL MNC. LINE 2C:
+GREEN. LINE 2D: X. LINE 2E: F.“
+
+7-17. MEACONING, INTRUSION, JAMMING, AND
+INTERFERENCE REPORT.
+
+This paragraph complies with STANAG 6004.
+
+When the sniper team knows or suspects that the enemy is jamming, or
+knows or suspects that the enemy is intruding on the net, the incident is
+reported immediately by secure means to higher headquarter. Such
+information is vital for the protection and defense of friendly radio
+communications. The sniper who is experiencing the MIJI incident
+forwards this report through the chain of command to the unit OP. He
+also submits a separate report for each MIJI incident. An example of a
+MIJI 1 report follows:
+
+ITEM 1-022 (encrypted) or MIJI 1.
+ITEM 2-3 (encrypted) or JAMMING.
+
+7-28
+
+FM 23-10
+
+ITEM 3 - 1 (encypted) or RADIO.
+ITEM 4 - 46.45 (encyypted if being transmitted over a nonsecure
+
+communications  means).
+
+ITEM 5 - N6B85S.
+ITEM 6 - FA86345964 (encrypted if being transmitted over a
+
+nonsecure communications means).
+
+a. Item 1 - Type of Report. When transmitted over nonsecure
+communications means, the numerals 022 are encrypted as
+Item 1 of the MIJI report. When transmitted over secure
+communications means, the term MIJI 1 is used as Item 1 of
+the MIJI 1 report.
+b. Item 2 - Type of MIJI Incident. When transmitted over
+nonsecure communications means, the appropriate numeral
+preceding one of the items below is encrypted as Item 2 of the
+MIJI report. When transmitted over secure communications
+means, the appropriate term below is used as Item 2 of the
+MIJI 1 report.
+Meaconing.
+Intrusion.
+Jamming.
+Interference.
+
+c. Item 3 - Type of Equipment Affected. When transmitted
+over nonsecure communications means, the appropriate
+numeral preceding one of the terms below is encrypted as Item
+3 of the MIJI 1 report. When transmitted over secure
+communications means, the appropriate term below is used as
+Item 3 of the MIJI report.
+
+Radio.
+Radar.
+Navigational  aid.
+Satellite.
+Electro-optics.
+
+d. Item 4 - Frequency or Channel Affected. When transmitted
+over nonsecure communications means, the frequency or
+channel affected by the MIJI incident is encrypted as Item 4 of
+the MIJI 1 report. When transmitted over secure
+
+7-29
+
+FM 23-10
+
+communications means, the frequency or channel affected by
+the MIJI incident is Item 4 of the MIJI 1 report.
+e. Item 5 - Victim Designation and Call Sign of Affected
+Station Operator. The complete call sign of the affected
+station operator is Item 5 of the MIJI 1 report over both secure
+and  nonsecure  communications  means.
+
+f. Item 6 - Coordinates of the Affected Station. When
+transmitted over nonsecure communications means, the
+complete grid coordinates of the affected station are encrypted
+as Item 6 of the MIJI 1 report. When transmitted over secure
+communications means, the complete grid coordinates of the
+affected station are Item 6 of the MIJI 1 report.
+
+7-18. SHELLING REPORTS
+
+This paragraph complies with STANAG 2934.
+
+The sniper team prepares and submits a SHELREP when it receives
+incoming rockets, mortars, or artillery rounds (FM 6-121). The team
+also uses this format for bombing attacks and mortars. The SHELREP
+format is as follows:
+
+ALPHA: Unit call sign.
+BRAVO: Location of observer.
+CHARLIE: Azimuth to flash or sound.
+DELTA: Time shelling started.
+ECHO: Time shelling ended.
+FOXTROT: Location of shelled area.
+GOLF: Number, type, and caliber (fire support team personnel
+only).
+HOTEL: Nature of fire (barrage, harassment, or registration).
+INDIA: Number of rounds.
+JULIET: Time of flash to bang.
+KILO:  Damage.
+
+FM 23-10
+
+7-19. ENEMY PRISONER OF WAR/CAPTURED MATERIEL
+REPORT
+
+This paragraph complies with STANAG 2084.
+
+The sniper team immediately tags EPWs and captured materiel. This
+ensures that information of intelligence value (place, time, and
+circumstances of capture) is not lost during evacuation. Only EPWs or
+materiel of immediate tactical importance are reported to the troop or
+battalion TOG Snipers use the following formats to report EPWs and
+captured materiel:
+
+a. Enemy Prisoners of War.
+LINE 1 - Type of report.
+LINE 2 - Item captured.
+LINE 3 - Date/time of capture.
+LINE 4 - Place of capture-grid coordinates.
+LINE 5 - Capturing unit-all sign.
+LINE 6 - Circumstances of capture (be brief).
+
+b. Captured Materiel.
+
+LINE 1 - Type of report.
+LINE 2 - Item captured.
+LINE 3 - Type document/equipment.
+LINE 4 - Date/time captured.
+LINE 5 - Place of capture-call sign.
+LINE 6 - Capturing unit—call sign.
+LINE 7 - Circumstances of capture (be brief).
+
+After the report is given to the company/team/commander, disposition
+instructions will be provided if needed.
+
+7-31
+
+FM 23-10
+
+7-20. NBC 1 REPORT
+
+This paragraph complies with STANAG 2103.
+
+The sniper team uses the NBC 1 report to submit initial and subsequent
+information on an NBC attack, transmitting over the command or
+operation and intelligence net immediately after an NBC attack.
+
+LINE 1 OR EVENT - Type of attack-nuclear, chemical, or
+
+biological.
+
+LINE 2 OR BRAVO - Grid location of observer.
+LINE 3 OR CHARLIE - Direction from observer to
+attack—mils or degree—true, grid, or magnetic.
+
+LINE 4 OR DELTA - Date-time group of detonation or star of attack.
+LINE 5 OR ECHO - Illumination time in seconds for nuclear attack.
+LINE 6 OR ECHO BRAVO - End time for biological/chemical attack
+LINE 7 OR FOXTROT - Actual or estimated (state which) grid
+
+coordinates for location of attack.
+
+LINE 8 OR GOLF - Means of delivery.
+LINE 9 OR HOTEL - Height of nuclear burst in feet or
+
+meters and or type of burst.
+
+LINE 10 OR HOTEL BRAVO - Type of biological/chemical
+
+attack and height of burst.
+
+LINE 11 OR INDIA BRAVO - Number of munitions or aircraft.
+LINE 12 OR EFFECTS - Effects of burst/agent on personnel.
+LINE 13 OR JULIETT - Flash-to-bang time in seconds for
+
+nuclear attack.
+
+LINE 14 OR KILO - Crater (yes or no) and width in meters.
+LINE 15 OR KILO BRAVO - Vegetation chemical/biological.
+LINE 16 OR LIMA - Nuclear burst angular cloud width,
+
+measured at five minutes after detonation in mils or degrees.
+
+LINE 17 OR MIKE - Stabilized cloud top height, in feet or meters,
+or angular cloud top angle, in degrees or mils, measured at H+10
+minutes after detonation and stabilized cloud height, in feet or
+meters, or angular cloud bottom angle, in degrees or mils,
+measured at H+10.
+
+7-32
+
+FM 23-10
+
+LINE 18 OR PAPA ALPHA- Grid of predicted outline of
+
+external contours of hazardous cloud or area.
+
+LINE 19 OR PAPA BRAVO - Downwind direction of nuclear
+
+cloud or duration of hazard in days.
+
+LINE 20 OR SIERRA - Date-time group of reading for nuclear
+
+or  detection  time  for  biological/chemical.
+
+LINE 21 OR YANKEE BRAVO - Effective downwind direction
+
+and wind speed.
+
+LINE 22 OR ZULU ALPHA STABILITY - Air stability indicator.
+LINE 23 OR ZULU ALPHA TEMPERATURE - Surface air
+
+temperature.
+
+LINE 24 OR ZULU ALPHA HUMIDITY - Relative humidity
+
+range.
+
+LINE 25 OR ZULU ALPHA WEATHER - Significant weather
+
+phenomena.
+
+LINE 26 OR ZULU ALPHA COVER - Cloud cover.
+LINE 27 OR NARRATIVE - Other significant observation.
+LINE 28 - Not used.
+LINE 29 OR AUTHENTICATION - Self-authentication, if required.
+
+7-21.  MEDICAL  EVACUATION  REQUEST
+
+This paragraph complies with STANAG 3204.
+
+The sniper team sends a MEDEVAC request to the medical team on
+the company command net.
+
+a. When air assets are not available, the sniper team uses the
+ground  evacuation  format.
+
+LINE 1 - Evacuation.
+LINE 2 - Location for pickup (encode).
+LINE 3 - Number of casualties.
+LINE 4 - Category of patient(s).
+
+A  Urgent.
+B  Priority.
+C  Routine.
+
+7-33
+
+FM 23-10
+
+Use the letter of the appropriate subparagraph from Line 4 with the
+number of casualties in Line 3—for example, a2 means there are two
+urgent  patients  for  evacuation.
+
+b. When air assets are available, the sniper team uses the air
+evacuation  format.
+
+LINE 1 - Location.
+LINE 2 - Radio frequency, call sign, and suffix.
+LINE 3 - Precedence:
+
+URGENT__ PRIORITY__ ROUTINE__ TACTICAL
+
+IMMEDIATE—
+
+LINE 4 - Special equipment.
+LINE 5 - Number of patients by type:
+
+Little__ Ambulator__
+
+LINE 6 - Security of pickup site.
+LINE 7 - Method of marking pickup size.
+LINE 8 - Patient’s nationality and status.
+LINE 9 - NBC contamination.
+
+c. The definitions of the categories of precedence follow:
+
+(1) Urgent. Used for emergency cases for evacuation as
+soon as possible and no more than two hours to save life,
+limb, and eyesight.
+
+(2) Priority. Used when the patient should be evacuated
+within four hours or his medical condition will deteriorate
+to an URGENT precedence.
+
+(3) Routine. Requires evacuation, but the patient’s condition
+
+is not expected to deteriorate within the next 24 hours.
+
+(4) Tactical  immediate.  Used when the patient’s condition
+is not urgent or priority, but evacuation is required as soon
+as possible so as not to endanger the requesting unit’s
+tactical  mission.
+
+7-34
+
+

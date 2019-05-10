@@ -40,25 +40,31 @@ class TextExtraction():
         '''
         #Initiate the loop through the directory
         for root, dirs, files in os.walk(self.path):
+            print("Directory: {}\nFiles:{}".format(dirs, files))
             counter = 0
             stopper = len(files)
             for file in files:
                 counter = counter + 1
                 #Remove the extension
                 filename, file_extension = os.path.splitext(file)
+                print("Filename: {}\tFile Extension: {}".format(filename, file_extension))
                 try:
-                    if (file_extension != '') and (counter < stopper):
+                    if (file_extension != '') and (counter < stopper + 1):
                         #Save the filename
                         filename = filename +'.txt'
 
                         #Extract the text from the document
-                        tempText = textract.process(self.path+"/"+file)
+                        print("Path: {}\tFile: {}\n".format(self.path, file))
+                        print(textract.process(r'C:\Users\user\Desktop\NLP_tools_for_topic_modeling\sample_corpus\arabic_doc.txt'))
+                        tempText = textract.process(self.path+'/'+file)
+                        print(f"tempText: {tempText}")
 
                         #Save the given text into a text document
                         self.saveFile(tempText, filename)
+                        print(f"File Saved: {filename}")
                     elif file_extension == '':
                         print("%s is not an actual file" % filename)
-
+                    print("_______________________\n")
                     #elif counter == stopper:
                         #break
                 except: textract.exceptions.MissingFileError
@@ -92,7 +98,7 @@ class TextExtraction():
 
 if __name__ == "__main__":
     #Establish Class TextExtraction
-    root = "/User/chanejackson/Desktop/"
+    root = "C:/Users/user/Desktop/"
     c = TextExtraction()
 
     #Run the program to get the text files
